@@ -6,7 +6,8 @@ DAppNodePackage of FAHClient
  DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerfile](./build/Dockerfile)
     
 
-- Latest instructions to configure FAHclient COVID-19 helps here : https://github.com/FoldingAtHome/coronavirus
+- Latest instructions to configure FAHclient COVID-19 helps here : 
+- https://github.com/FoldingAtHome/coronavirus
 
 - Article details here :
 - https://foldingathome.org/2020/03/10/covid19-update/
@@ -69,7 +70,7 @@ $ docker-compose build
 select node number. | integer |
 | `GPU` |gpu <boolean=true>. Enable or disable auto-confiugration of GPU slots, requires appropriate hardware. | boolean |
 | `SMP` | <boolean=true>. Enable or disable auto-configuration of SMP slots, requires appropriate hardware. | boolean |
-| `ADDITIONAL_OPTIONS` |see all options FAHClient --help. --option=value | string  |
+| `ADDITIONAL_OPTIONS` |see all options [FAHClient --help](https://github.com/luguslabs/DAppNodePackage-folding-at-home/blob/master/README.md#fahclient-usage). --option=value | string  |
 
 
 ## Running
@@ -105,7 +106,7 @@ This project is licensed under GPL3 - see the [LICENSE](LICENSE) file for detail
 
 ## References
 
-[folding@home]()https://foldingathome.org/
+[folding@home](https://foldingathome.org/)
 
 [git](https://git-scm.com/)
 
