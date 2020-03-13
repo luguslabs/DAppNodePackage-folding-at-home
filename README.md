@@ -1,5 +1,5 @@
-# DAppNodePackage-folding-at-home
-DAppNodePackage of FAHClient
+# DAppNodePackage folding@home
+DAppNodePackage of folding@home FAHClient
 
 ## Introduction
 
