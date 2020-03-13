@@ -3,7 +3,7 @@ DAppNodePackage of FAHClient
 
 ## Introduction
 
- DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerile](./build/Dockerfile)
+ DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerfile](./build/Dockerfile)
     
 
 - Latest instructions to configure FAHclient COVID-19 helps here : https://github.com/FoldingAtHome/coronavirus
