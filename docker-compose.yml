@@ -1,0 +1,20 @@
+version: '3.4'
+services:
+  folding-at-home.public.dappnode.eth:
+    build: ./build
+    volumes:
+      - 'data:/fah-data'
+    image: 'folding-at-home.public.dappnode.eth:0.1.0'
+    environment:
+      - TEAM=0
+      - USER=Anonymous
+      - PASSKEY=1385yourpasskeyhere5924
+      - CAUSE=ANY
+      - CPUS=-1
+      - CPU_USAGE=100
+      - GPU=false
+      - SMP=true
+      - ADDITIONAL_OPTIONS=
+    restart: always
+volumes:
+  data: {}

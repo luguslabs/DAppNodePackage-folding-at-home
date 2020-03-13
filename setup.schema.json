@@ -1,0 +1,51 @@
+{
+    "description": "DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/)",
+    "type": "object",
+    "properties": {
+        "team": {
+            "type": "string",
+            "title": "Team",
+            "description": "Your team number."
+        },
+        "user": {
+            "type": "string",
+            "title": "USER",
+            "description": "Your user name."
+        },
+        "passkey": {
+            "type": "string",
+            "title": "PASSKEY",
+            "description": "Your passkey or create one here : https://apps.foldingathome.org/getpasskey"
+        },
+        "cause": {
+            "type": "string",
+            "title": "CAUSE",
+            "description": "The cause you prefer to support."
+        },
+        "cpus": {
+            "type": "string",
+            "title": "CPUS",
+            "description": "How many CPUs a slot should use. <= 0 will use all the CPUs detected in the system."
+        },
+        "cpu-usage": {
+            "type": "string",
+            "title": "CPU USAGE",
+            "description": "The maximum percentage of the CPU a core should use. Not implemented by all cores."
+        },
+        "gpu": {
+            "type": "string",
+            "title": "GPU",
+            "description": "gpu <boolean=true>. Enable or disable auto-confiugration of GPU slots, requires appropriate hardware."
+        },
+        "smp": {
+            "type": "string",
+            "title": "SMP",
+            "description": " <boolean=true>. Enable or disable auto-configuration of SMP slots, requires appropriate hardware."
+        },
+        "additional_options": {
+            "type": "string",
+            "title": "ADDITIONAL OPTIONS",
+            "description": "see all options FAHClient --help ."
+        }
+    }
+}

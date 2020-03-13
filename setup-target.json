@@ -1,0 +1,38 @@
+{
+    "team": {
+        "type": "environment",
+        "name": "TEAM"
+    },
+    "user": {
+        "type": "environment",
+        "name": "USER"
+    },
+    "passkey": {
+        "type": "environment",
+        "name": "PASSKEY"
+    },
+    "cause": {
+        "type": "environment",
+        "name": "CAUSE"
+    },
+    "cpus": {
+        "type": "environment",
+        "name": "CPUS"
+    },
+    "cpu-usage": {
+        "type": "environment",
+        "name": "CPU_USAGE"
+    },   
+    "gpu": {
+        "type": "environment",
+        "name": "GPU"
+    },
+    "smp": {
+        "type": "environment",
+        "name": "SMP"
+    },
+    "additional_options": {
+        "type": "environment",
+        "name": "ADDITIONAL_OPTIONS"
+    }
+}

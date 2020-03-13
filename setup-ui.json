@@ -1,0 +1,6 @@
+{
+    "ui:order": ["team", "user", "passkey", "cause", "cpus","cpu-usage","gpu","smp","additional_options"],
+    "passkey": {
+      "ui:widget": "password"
+    }
+}
