@@ -16,6 +16,7 @@ DAppNodePackage of folding@home FAHClient
 
 
 - DAppNode FAH team number is : TBD
+- FAH "CyptoTwitter" team number is :238061
 
 ## DappNodeInstall Link :
 
