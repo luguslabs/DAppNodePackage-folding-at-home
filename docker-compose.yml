@@ -6,7 +6,7 @@ services:
       - 'data:/fah-data'
     image: 'folding-at-home.public.dappnode.eth:0.1.0'
     environment:
-      - TEAM=0
+      - TEAM=238061
       - USER=Anonymous
       - PASSKEY=1385yourpasskeyhere5924
       - CAUSE=ANY
