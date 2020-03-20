@@ -20,7 +20,8 @@ DAppNodePackage of folding@home FAHClient
 
 ## DappNodeInstall Link :
 
-  http://my.dappnode/#/installer/%2Fipfs%2FQmSXCz9hZuqviPPAn47qihhFh1SSG8ywxiFAPLqVrCtDtq
+   http://my.dappnode/#/installer/%2Fipfs%2FQmTBEkc2Xwa7af9d5modZtMxPuQ1Tyo2NTqFma48fHnXXg
+
 
 
 
