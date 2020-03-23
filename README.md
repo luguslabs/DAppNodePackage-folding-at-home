@@ -13,10 +13,10 @@ DAppNodePackage of folding@home FAHClient
 - https://foldingathome.org/2020/03/10/covid19-update/
 - https://foldingathome.org/2020/02/27/foldinghome-takes-up-the-fight-against-covid-19-2019-ncov/
 
-
+- FAQ FAH forum : [**FAQ SARS-CoV-2 (COVID-19) projects and FAH**](https://foldingforum.org/viewtopic.php?f=16&t=32463) 
 
 - DAppNode FAH team number is : TBD
-- FAH "CyptoTwitter" team number is :238061
+- FAH "CyptoTwitter" team number is :238061 . Stats here : https://stats.foldingathome.org/team/238061
 
 ## DappNodeInstall Link :
 
