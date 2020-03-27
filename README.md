@@ -6,6 +6,12 @@ DAppNodePackage of folding@home FAHClient
  DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerfile](./build/Dockerfile)
     
 
+- What is DappNode ? => https://dappnode.io/
+- What is Folding at Home ? => https://foldingathome.org/
+- What is a DAppNode Package ? => https://medium.com/luguslabs/how-to-create-and-manage-a-new-dappnode-package-b23460b4449
+- I have an hardware to help => go and install DAppNode ISO https://github.com/dappnode/DAppNode/wiki/DAppNode-Installation-Guide#how-to-install-dappnode-from-an-iso
+- I do not have any hardward to help => https://shop.dappnode.io/
+
 - Latest instructions to configure FAHclient COVID-19 helps here : 
 - https://github.com/FoldingAtHome/coronavirus
 
