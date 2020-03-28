@@ -10,7 +10,7 @@ DAppNodePackage of folding@home FAHClient
 - What is Folding@Home ? => https://foldingathome.org/
 - What is a DAppNode Package ? => https://medium.com/luguslabs/how-to-create-and-manage-a-new-dappnode-package-b23460b4449
 - I have an hardware to help => go and install DAppNode ISO https://github.com/dappnode/DAppNode/wiki/DAppNode-Installation-Guide#how-to-install-dappnode-from-an-iso
-- I do not have any hardward to help => https://shop.dappnode.io/
+- I do not have any hardware to help => https://shop.dappnode.io/
 
 ## Folding@Home and COVID-19
 - Latest instructions to configure FAHclient COVID-19 helps here : 
