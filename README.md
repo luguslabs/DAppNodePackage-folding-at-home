@@ -26,7 +26,7 @@ DAppNodePackage of folding@home FAHClient
 
 ## DappNodeInstall Link :
 
- http://my.dappnode/#/installer/%2Fipfs%2FQmTBEkc2Xwa7af9d5modZtMxPuQ1Tyo2NTqFma48fHnXXg
+http://my.dappnode/#/installer/folding-at-home.public.dappnode.eth
 
 # Folding@home Deployment on DAppNodes
 
