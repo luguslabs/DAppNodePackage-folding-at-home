@@ -1,5 +1,5 @@
 {
-    "ui:order": ["team", "user", "passkey", "cause", "cpus","cpu-usage","gpu","smp","additional_options"],
+    "ui:order": ["pause_on_start","additional_options","team", "user", "passkey", "cause", "cpus","cpu-usage","gpu","smp","allow","command-allow-no-pass"],
     "passkey": {
       "ui:widget": "password"
     }

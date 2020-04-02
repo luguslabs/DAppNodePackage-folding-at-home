@@ -2,6 +2,18 @@
     "description": "DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/)",
     "type": "object",
     "properties": {
+        "pause_on_start": {
+            "type": "string",
+            "title": "Pause On Start",
+            "description": " default <boolean=false>, If true the slot will be started in a paused state. It allows you configure before starting folding",
+            "default": "false",
+            "enum": ["false", "true"]
+        },
+        "additional_options": {
+            "type": "string",
+            "title": "ADDITIONAL OPTIONS",
+            "description": "see all options FAHClient --help ."
+        },
         "team": {
             "type": "string",
             "title": "Team",
@@ -42,10 +54,15 @@
             "title": "SMP",
             "description": " <boolean=true>. Enable or disable auto-configuration of SMP slots, requires appropriate hardware."
         },
-        "additional_options": {
+        "allow": {
             "type": "string",
-            "title": "ADDITIONAL OPTIONS",
-            "description": "see all options FAHClient --help ."
+            "title": "ALLOW",
+            "description": "<string=127.0.0.1> Client addresses which are allowed to connect to this server. This option  overrides IPs which are denied in the deny option. The pattern 0/0 matches all addresses."
+        },
+        "command-allow-no-pass": {
+            "type": "string",
+            "title": "COMMAND_ALLOW_NO_PASS",
+            "description": "<string=127.0.0.1> IP address ranges that are allowed access to the command server with out a password if the 'password' option is set. These addresses will also have to be allowed IP based access."
         }
     }
 }

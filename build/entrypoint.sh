@@ -1,15 +1,21 @@
 #!/bin/bash 
 
 #check if env vars are set
+if [ -z "$PAUSE_ON_START" ]
+then
+      echo "\$PAUSE_ON_START is empty. set to false"
+      PAUSE_ON_START=false
+fi
+
 if [ -z "$TEAM" ]
 then
-      echo "\$TEAM is empty. set to  0"
+      echo "\$TEAM is empty. set to 0"
       TEAM=0
 fi
 
 if [ -z "$USER" ]
 then
-      echo "\$USER is empty. set to  0"
+      echo "\$USER is empty. set to 0"
       USER=Anonymous
 fi
 
@@ -49,6 +55,22 @@ then
       CPU_USAGE=100
 fi
 
-mkdir -p /fah-data
+if [ -z "$ALLOW" ]
+then
+      echo "\$ALLOW is empty. set to 127.0.0.1,192.168.1.0/24,172.33.0.1/24 by default"
+      ALLOW=127.0.0.1,192.168.1.0/24,172.33.0.1/24
+fi
 
-FAHClient --data-directory=/fah-data --user=$USER --passkey=$PASSKEY --team=$TEAM --cause=$CAUSE --cpus=$CPUS --cpu-usage=$CPU_USAGE --gpu=$GPU --smp=$SMP $ADDITIONAL_OPTIONS
+if [ -z "$COMMAND_ALLOW_NO_PASS" ]
+then
+      echo "\$COMMAND_ALLOW_NO_PASS is empty. set to 127.0.0.1,192.168.1.0/24,172.33.0.1/24 by default"
+      COMMAND_ALLOW_NO_PASS=127.0.0.1,192.168.1.0/24,172.33.0.1/24
+fi
+
+mkdir -p /home/fah/data
+
+FAHClient --data-directory=/home/fah/data --pause-on-start=$PAUSE_ON_START \
+            --allow=$ALLOW --command-allow-no-pass=$COMMAND_ALLOW_NO_PASS \
+            --user=$USER --passkey=$PASSKEY --team=$TEAM \
+            --cause=$CAUSE --cpus=$CPUS --cpu-usage=$CPU_USAGE \
+            --gpu=$GPU --smp=$SMP $ADDITIONAL_OPTIONS

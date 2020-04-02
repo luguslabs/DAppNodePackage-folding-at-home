@@ -1,4 +1,12 @@
 {
+    "pause_on_start": {
+        "type": "environment",
+        "name": "PAUSE_ON_START"
+    },
+    "additional_options": {
+        "type": "environment",
+        "name": "ADDITIONAL_OPTIONS"
+    },
     "team": {
         "type": "environment",
         "name": "TEAM"
@@ -31,8 +39,12 @@
         "type": "environment",
         "name": "SMP"
     },
-    "additional_options": {
+    "allow": {
         "type": "environment",
-        "name": "ADDITIONAL_OPTIONS"
+        "name": "ALLOW"
+    },
+    "command-allow-no-pass": {
+        "type": "environment",
+        "name": "COMMAND_ALLOW_NO_PASS"
     }
 }

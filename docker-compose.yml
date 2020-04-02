@@ -2,10 +2,14 @@ version: '3.4'
 services:
   folding-at-home.public.dappnode.eth:
     build: ./build
+    ports:
+      - '36330:36330'
     volumes:
-      - 'data:/fah-data'
+      - 'data:/home/fah/data'
     image: 'folding-at-home.public.dappnode.eth:0.1.0'
     environment:
+      - PAUSE_ON_START=false
+      - ADDITIONAL_OPTIONS=
       - TEAM=238061
       - USER=Anonymous
       - PASSKEY=1385yourpasskeyhere5924
@@ -14,7 +18,8 @@ services:
       - CPU_USAGE=100
       - GPU=false
       - SMP=true
-      - ADDITIONAL_OPTIONS=
+      - 'ALLOW=127.0.0.1,192.168.1.0/24,172.33.0.1/24'
+      - 'COMMAND_ALLOW_NO_PASS=127.0.0.1,192.168.1.0/24,172.33.0.1/24'
     restart: always
 volumes:
   data: {}

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "type": "service",
   "author": "Lugus Labs (https://github.com/luguslabs)",
-  "upstreamVersion": "v7.4",
-  "shortDescription": "DAppNode Package FAHClient https://foldingathome.org",
+  "upstreamVersion": "fahclient_7.4.4_amd64.deb",
+  "shortDescription": "DAppNode Package FAHClient https://foldingathome.org. More information at https://github.com/luguslabs/DAppNodePackage-folding-at-home",
   "description": "DAppNode Package wrapping Folding@home [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerfile](https://github.com/luguslabs/DAppNodePackage-folding-at-home/blob/master/build/Dockerfile)",
   "requirements": {
     "minimumDappnodeVersion": "0.2.19"
