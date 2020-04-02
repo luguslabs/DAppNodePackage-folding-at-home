@@ -6,7 +6,7 @@ services:
       - '36330:36330'
     volumes:
       - 'data:/home/fah/data'
-    image: 'folding-at-home.public.dappnode.eth:0.1.0'
+    image: 'folding-at-home.public.dappnode.eth:1.0.0'
     environment:
       - PAUSE_ON_START=false
       - ADDITIONAL_OPTIONS=
