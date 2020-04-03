@@ -1,6 +1,16 @@
 # DAppNodePackage folding@home
 DAppNodePackage of folding@home FAHClient
 
+
+## FAHcontrol and FAH viewer connected to all FAH Client running on your DappNodes !
+
+<p align="center">
+ <img src=./images/folding.png width = 800>
+</p>
+
+Join the FAH "CyptoTwitter" Team 238061 and fight COVID-19. All instructions bellow.
+
+
 ## Introduction
 
  DAppNode Package wrapping of [Linux FAHClient](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/) see [Dockerfile](./build/Dockerfile)
