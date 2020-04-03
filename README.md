@@ -2,7 +2,7 @@
 DAppNodePackage of folding@home FAHClient
 
 
-## FAHcontrol and FAH viewer connected to all FAH Client running on your DappNodes !
+## FAHControl and FAHViewer connected to all FAHClient running on your DappNodes !
 
 <p align="center">
  <img src=./images/folding.png width = 800>
